@@ -62,8 +62,8 @@
                     <!-- Navigation -->
                     <div class="android-navigation-container">
                         <nav class="android-navigation mdl-navigation">
-                            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Solicitud de Espacios</a>
-                            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Búsqueda de Espacios</a>
+                            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="solicitud.jsp" >Solicitud de Espacios</a>
+                            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="busqueda.jsp">Búsqueda de Espacios</a>
                         </nav>
                     </div>
                     <span class="android-mobile-title mdl-layout-title">
