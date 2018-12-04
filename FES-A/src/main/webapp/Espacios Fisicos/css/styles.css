@@ -1,0 +1,814 @@
+@charset "UTF-8";
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+
+.dates {
+  font-style: italic;
+  font-family: Arial;
+  font-size: 5px; }
+
+.font-menu {
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 20px; }
+
+.font-tit-noti {
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: bold; }
+
+.font-tit-pub {
+  font-family: Arial;
+  font-size: 30;
+  font-weight: bold; }
+
+.general {
+  background-color: #ffffff;
+  max-width: 980px;
+  margin: 0 auto; }
+
+.cabeza {
+  width: auto;
+  height: auto;
+  background-color: #1B3D70;
+  padding: 16px; }
+
+.logo-unam {
+  position: absolute;
+  left: 0%; }
+
+.logo-acatlan {
+  float: right;
+  padding-top: 2%;
+  padding-left: 15%; }
+
+.cont-tram-busc {
+  width: 980px;
+  height: 5vh;
+  background-color: #BB8800;
+  position: sticky; }
+
+.menu-tramites {
+  width: 754px; }
+
+.menu-general {
+  width: 980px;
+  height: 7vh;
+  background-color: #1B3D70;
+  top: 202px; }
+
+.carrusel-prin {
+  width: 980px;
+  height: 20vh;
+  background-color: #D54E35; }
+
+.cont-avisos {
+  width: 980px;
+  height: 352px; }
+
+.tit-avisos {
+  width: 980px;
+  height: 50px;
+  background: #3B4142; }
+
+.carrusel-avisos {
+  width: 980px;
+  height: 302px; }
+
+.redes-sociales {
+  background: #3B4142; }
+
+.redes-sociales img {
+  padding: 7% 10% 7% 10%; }
+
+.icon_menu {
+  width: 50px;
+  height: 50px; }
+
+.cont-noti-banners {
+  width: 980px;
+  height: 422px;
+  background: #ffffff; }
+
+.tit-noticias {
+  width: 732px;
+  height: 34px;
+  background: #00829A; }
+
+.imagen-noticias {
+  width: 240px;
+  height: 324px; }
+
+.lista-noticias {
+  width: 492px;
+  height: 324px;
+  background: #ffffff; }
+
+.cont-noticias {
+  width: 824px;
+  height: 422px; }
+
+.cont-banners {
+  width: 456px;
+  height: 422px; }
+
+.banner {
+  width: 400;
+  height: 114px; }
+
+.cont-iconos-firma {
+  background: #3B4142;
+  padding-bottom: 0.5%;
+  padding-top: 0.5%; }
+
+.cont-iconos-firma a {
+  color: #ffffff !important; }
+
+.element {
+  font-size: 73%;
+  color: #ffffff !important; }
+
+.element img {
+  width: 45%;
+  padding: 2px 0 2px 0; }
+
+.footer {
+  background: #1B3D70;
+  color: #ffffff;
+  text-align: center;
+  font-family: Arial;
+  font-size: 13px;
+  padding: 2% 8% 3% 8%; }
+
+.footer p {
+  padding-left: 12%;
+  padding-right: 12%; }
+
+.boton-footer {
+  background: #BB8800;
+  color: .boton-footer blanco;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 2%;
+  margin: 2% 5% 2% 5%; }
+
+.boton-footer a {
+  color: #ffffff !important; }
+
+.boton-footer a:hover {
+  color: #ffffff !important; }
+
+.boton {
+  background: #BB8800;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 13px;
+  width: 180px;
+  font-family: Arial; }
+
+.boton p {
+  color: #ffffff;
+  font-weight: bold;
+  padding: 5%; }
+
+.avisos-bloque {
+  padding: auto;
+  width: auto;
+  height: auto; }
+
+.avisos-bloque img {
+  width: 50px;
+  height: 50px;
+  padding-right: 10%;
+  padding-bottom: 10%; }
+
+.avisos-bloque h1 {
+  font-size: 12px;
+  color: #1B3D70;
+  font-weight: bold; }
+
+.avisos-bloque a {
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: Arial;
+  font-size: 10px;
+  color: #BB8800; }
+
+.avisos-bloque h2 {
+  letter-spacing: 0px;
+  font-family: Arial;
+  font-size: 11px;
+  color: #3B4142; }
+
+.tit-prin {
+  color: #BB8800;
+  font-size: 25px;
+  font-family: Arial; }
+
+.dorado {
+  color: #BB8800;
+  padding-top: 1%;
+  font-weight: bold; }
+
+.nota {
+  color: #933; }
+
+.cont-difusion {
+  text-align: center;
+  float: middle; }
+
+.cont-difusion img {
+  width: 250px; }
+
+.tit-difusion {
+  font-family: Arial;
+  font-size: 14px;
+  color: #3B4142; }
+
+.text-descarga {
+  font-family: Arial;
+  color: red;
+  font-size: 11px; }
+
+.cont-banderas {
+  padding: 2%;
+  font-size: 80%; }
+
+.cont-banderas:hover {
+  font-weight: bold; }
+
+.cont-banderas img:hover {
+  opacity: 0.30; }
+
+.cont-banderas a {
+  color: black !important; }
+
+.linea-noticias {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-style: solid;
+  border-width: 1px;
+  color: #00829A; }
+
+/* ======================Estilos de pestañas de Licenciaturas=====================================*/
+#pest *,
+#pest *:after,
+#pest *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+#pest .clearfix:before,
+#pest .clearfix:after {
+  content: " ";
+  display: table; }
+
+#pest .clearfix:after {
+  clear: both; }
+
+#pest body {
+  font-family: Arial;
+  background: #fff; }
+
+#pest h1 {
+  color: #ccc;
+  text-align: center; }
+
+#pest a {
+  color: #ccc;
+  text-decoration: none;
+  outline: none; }
+
+/*Fun begins*/
+#pest .tab_container {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 70px;
+  position: relative; }
+
+#pest input, section {
+  clear: both;
+  padding-top: 10px;
+  display: none; }
+
+#pest label {
+  font-weight: 700;
+  font-size: 15px;
+  display: block;
+  float: left;
+  width: 20%;
+  height: 70px;
+  padding-top: 1.5em;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  background: #BB8800; }
+
+#pest #tab1:checked ~ #content1,
+#pest #tab2:checked ~ #content2,
+#pest #tab3:checked ~ #content3,
+#pest #tab4:checked ~ #content4,
+#pest #tab5:checked ~ #content5 {
+  display: block;
+  padding: 20px;
+  background: #fff;
+  color: #999;
+  border-bottom: 2px solid #BB8800; }
+
+#pest .tab_container .tab-content p,
+#pest .tab_container .tab-content h3 {
+  -webkit-animation: fadeInScale 0.7s ease-in-out;
+  -moz-animation: fadeInScale 0.7s ease-in-out;
+  animation: fadeInScale 0.7s ease-in-out; }
+
+#pest .tab_container .tab-content h3 {
+  text-align: left;
+  font-size: 20px; }
+
+#pest .tab_container [id^="tab"]:checked + label {
+  background: #fff;
+  box-shadow: inset 0 3px #BB8800;
+  color: #BB8800; }
+
+#pest .tab_container [id^="tab"]:checked + label .fa {
+  color: #BB8800; }
+
+#pest label .fa {
+  font-size: 1.3em;
+  margin: 0 0.4em 0 0; }
+
+/*Media query*/
+@media only screen and (max-width: 900px) {
+  #pest label span {
+    display: none; }
+
+  #pest .tab_container {
+    width: 98%; } }
+/*Content Animation*/
+@keyframes fadeInScale {
+  0% {
+    transform: scale(0.9);
+    opacity: 0; }
+  100% {
+    transform: scale(1);
+    opacity: 1; } }
+#pest .no_wrap {
+  text-align: center;
+  color: #BB8800; }
+
+#pest .link {
+  text-align: center; }
+
+#pest section {
+  display: none; }
+
+/*========================Termina estilos de pestañas de Licenciaturas==========================*/
+/*========================Inicia estilos de pestañas==========================*/
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #BB8800;
+  background-color: #BB8800;
+  color: #ffffff;
+  border-bottom: none;
+  margin-left: 5%;
+  margin-right: 5%; }
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 12px;
+  transition: 0.3s;
+  font-size: 15px; }
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #C39C55; }
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ffffff;
+  color: #BB8800; }
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #BB8800;
+  border-top: none;
+  margin-left: 5%;
+  margin-right: 5%; }
+
+.tabcontent a {
+  color: #00829A !important; }
+
+/*========================Termina estilos de pestañas==========================*/
+/*===============Inicia Diseño de Acordeon==========================*/
+.accordion {
+  background-color: #BB8800;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 7px;
+  width: 90%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  margin-left: 5%;
+  margin-right: 5%; }
+
+.active, .accordion:hover {
+  background-color: #BB8800; }
+
+.accordion:after {
+  content: '\002B';
+  color: #ffffff;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px; }
+
+.panel {
+  padding: 0 18px;
+  background-color: #ffffff;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  border-color: #BB8800;
+  border-style: solid;
+  border-width: 0.5px;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%; }
+
+/*===============Termina Diseño de Acordeon==========================*/
+/*=====================Estilos de tablas============================*/
+table {
+  margin: 1em 1em 1em 1em;
+  text-align: center;
+  font-size: 90%;
+  border-collapse: collapse;
+  color: #ffffff; }
+
+caption {
+  text-align: center;
+  font-size: 100%; }
+
+th, td {
+  border: 0.5px solid #BB8800;
+  /*border-right:1px solid #333;*/
+  padding: 0.7em 0.5em 0.7em 0.5em; }
+
+th {
+  background-color: #BB8800;
+  color: #ffffff;
+  padding: 10px; }
+
+tr {
+  background-color: #ffffff;
+  color: #3B4142;
+  padding: 2%; }
+
+/*=====================Termina Estilos de tablas============================*/
+/*==================Inician estilos de div En construcción=====================*/
+.tooltip-toggle {
+  cursor: pointer;
+  position: relative; }
+  .tooltip-toggle::before {
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    background-color: #3B4142;
+    border-radius: 10px;
+    color: #ffffff;
+    content: attr(aria-label);
+    padding: 0.5em;
+    text-transform: none;
+    transition: all 1s ease; }
+  .tooltip-toggle::before, .tooltip-toggle::after {
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 12px;
+    opacity: 0;
+    pointer-events: none;
+    text-align: center; }
+  .tooltip-toggle:focus::before, .tooltip-toggle:focus::after, .tooltip-toggle:hover::before, .tooltip-toggle:hover::after {
+    opacity: 1;
+    transition: all 0.75s ease;
+    z-index: 1; }
+
+/*==================Terminan estilos de div En construcción=====================*/
+/*==================Directorio=================================================*/
+.foto-directorio {
+  width: 275px;
+  height: 275px; }
+
+.tit-dir {
+  color: #BB8800;
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 150%;
+  margin: 0; }
+
+.name-dir {
+  color: #3B4142;
+  font-family: Arial;
+  font-size: 100%;
+  margin: 0; }
+
+.puesto-dir {
+  color: #3B4142;
+  font-family: Arial;
+  font-size: 100%;
+  font-weight: bold; }
+
+/*==================Termina Directorio=================================================*/
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-style: solid;
+  border-width: 1px;
+  color: #BB8800; }
+
+.contenedor {
+  margin: -5px; }
+
+.centrado {
+  text-align: center; }
+
+/*==============================Inicia Estilos para sección de Avisos========================*/
+.bloque-deportes {
+  border-color: #739849;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 2%; }
+
+.bloque-avisos {
+  border-color: #D54E35;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 2%; }
+
+.bloque-idiomas {
+  border-color: #EA1D75;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 2%; }
+
+.bloque-cultura {
+  border-color: #742F8A;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 2%; }
+
+.bloque-convocatorias {
+  border-color: #3B4142;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 2%; }
+
+.bloque-eventos {
+  border-color: #00829A;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 2%; }
+
+.borde-convocatorias {
+  background: #3B4142; }
+
+.borde-eventos {
+  background: #00829A; }
+
+.borde-deportes {
+  background: #739849; }
+
+.borde-idiomas {
+  background: #EA1D75; }
+
+.borde-cultura {
+  background: #742F8A; }
+
+.borde-avisos {
+  background: #D54E35; }
+
+.tit-deportes {
+  background: #739849;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 2.5%; }
+
+.tit-idiomas {
+  background: #EA1D75;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 2.5%; }
+
+.tit-aviso {
+  background: #D54E35;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 2.5%; }
+
+.tit-cultura {
+  background: #742F8A;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 2.5%; }
+
+.tit-eventos {
+  background: #00829A;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 2.5%; }
+
+.tit-convocatorias {
+  background: #3B4142;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 2.5%; }
+
+.tit-lista-avisos {
+  margin: 2% 5% 0 5%; }
+
+.tit-lista-avisos a {
+  font-size: 90%;
+  color: black !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none !important; }
+
+.tit-lista-avisos a:hover {
+  color: #A7A9AB !important; }
+
+.resumen {
+  font-size: 75%;
+  color: black;
+  font-style: italic;
+  margin: 0% 5% 0% 5%; }
+
+.lista-avisos hr {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-style: solid;
+  border-width: 1px;
+  color: #D54E35; }
+
+.lista-convocatorias hr {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-style: solid;
+  border-width: 1px;
+  color: #3B4142; }
+
+.lista-eventos hr {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-style: solid;
+  border-width: 1px;
+  color: #00829A; }
+
+.lista-deportes hr {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-style: solid;
+  border-width: 1px;
+  color: #739849; }
+
+.lista-cultura hr {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-style: solid;
+  border-width: 1px;
+  color: #742F8A; }
+
+.lista-idiomas hr {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-style: solid;
+  border-width: 1px;
+  color: #EA1D75; }
+
+/*==============================Termina Estilos para bloque de deportes========================*/
+/*==============================Comienza estilos de cursos de Educación Continua========================*/
+.content-ec {
+  padding: 7.5% 7.5% 7.5% 7.5%; }
+
+.content-ec img:hover {
+  opacity: .35; }
+
+.content-info-ec {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D1D2D4;
+  min-height: 170px; }
+
+.tit-ec-bloque {
+  color: #1B3D70 !important;
+  font-size: 93%;
+  font-weight: bold;
+  font-family: Arial;
+  padding: 2% 5% 2% 5%;
+  text-align: left; }
+
+.tit-ec-bloque a {
+  color: #1B3D70 !important; }
+
+.desc-ec-bloque {
+  color: #3B4142;
+  font-size: 70%;
+  font-family: Arial;
+  padding: 2% 5% 10% 5%; }
+
+.cont-info {
+  color: #ffffff;
+  background: #00829A;
+  margin: 2% 5% 5% 5%;
+  padding: 2% 2% 2% 2%; }
+
+/*==============================Termina estilos de cursos de Educación Continua========================*/
+/*==============================Comienza estilos de publicaciones========================*/
+.cont-publi {
+  background: #3B4142;
+  padding: 5% 5% 5% 5%;
+  width: 100%; }
+
+.legal-publi {
+  color: white;
+  font-size: 70%;
+  padding-left: 5%; }
+
+.legal-publi a {
+  color: #BB8800 !important; }
+
+.legal-publi a:hover {
+  color: white !important; }
+
+.boton-publi {
+  padding-left: 5%; }
+
+.cont-info-publi {
+  margin: 5% 20% 10% 20%;
+  border: solid;
+  border-width: .5px;
+  border-color: #BB8800; }
+
+.cont-tit-publi {
+  background: #BB8800;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  font-weight: bold;
+  font-size: 150%; }
+
+.cont-det-publi {
+  padding: 2% 5% 0% 5%;
+  font-size: 80%;
+  color: #3B4142; }
+
+/*==============================Termina estilos de publicaciones========================*/
+.simplepie li {
+  list-style-position: inside;
+  border: 0.5px solid #00829A;
+  padding: 2%;
+  border-top: none;
+  border-right: none;
+  border-left: none; }
+
+.simplepie a {
+  color: #3B4142 !important;
+  font-size: 95%; }
+
+/*# sourceMappingURL=styles.css.map */

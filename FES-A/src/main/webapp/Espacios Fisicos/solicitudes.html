@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FES Acatlán</title>
+    <link rel="shortcut icon" href="img/icons/icon.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/acatlan_ui.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/mail.css">
+    <script src="js/awesome.js"></script>
+    <!-- estilos externos -->
+    <!-- EXTERNAL CSS  -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/base-min.css">
+    <!-- PureIO Base -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-min.css">
+    <!-- PureIO Grid -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <!-- PureIO Responsive -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <!-- Slick Base -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <!-- Slick Theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Bootstrap 4 CSS -->
+
+    <script type="text/javascript">
+$(document).ready(function(){
+    // Activate tooltip
+    $('[data-toggle="tooltip"]').tooltip();
+    
+    // Select/Deselect checkboxes
+    var checkbox = $('table tbody input[type="checkbox"]');
+    $("#selectAll").click(function(){
+        if(this.checked){
+            checkbox.each(function(){
+                this.checked = true;                        
+            });
+        } else{
+            checkbox.each(function(){
+                this.checked = false;                        
+            });
+        } 
+    });
+    checkbox.click(function(){
+        if(!this.checked){
+            $("#selectAll").prop("checked", false);
+        }
+    });
+});
+</script>
+
+  
+
+</head>
+<style>
+#acatlanModal .modal-content .modal-body{
+    overflow:hidden;
+}
+.modalpadding{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+</style>
+<body>
+
+    <div class="general">
+        <div class="pure-g cabeza">
+        <div class="pure-g-r" style="width: 100%;">
+            <div class="pure-u-1-2">
+                <a href="https://www.unam.mx/"><img class="pure-img" src="img/Logo-UNAM.png"></a>
+            </div>
+            <div class="pure-u-1-2">
+                <a href="http://www.acatlan.unam.mx/"><img class="pure-img logo-acatlan" src="img/logo_fesa.png"></a>
+            </div>
+        </div>
+    </div>
+         
+         <div class="menu_pands">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a href="./index.html" class="navbar-brand mb-0 h1" >INICIO</a>
+                </nav>
+            </div>
+        
+       <!-- Aqui empieza el codigo de nosotros -->
+
+     
+<div class="container">
+<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+ <div class="mail-box">
+                 
+                  <aside class="lg-side">
+                      <div class="inbox-head">
+                          <h3>Solicitudes</h3>
+                          <form action="#" class="pull-right position">
+                              <div class="input-append">
+                                  <input type="text"  id="myInput2" class="sr-input" placeholder="Search Mail">
+                                  <button class="btn sr-btn" type="button"><i class="fa fa-search"></i></button>
+                              </div>
+                          </form>
+                      
+                      </div>
+
+                      <div class="inbox-body">
+
+                         <div class="btn-group">
+                                     <a data-toggle="dropdown" href="#" class="btn mini all" aria-expanded="false">
+                                         Todos
+                                         <i class="fa fa-angle-down "></i>
+                                     </a>
+                                     <ul class="dropdown-menu">
+                                         <li><a href="#"> Leidos</a></li>
+                                         <li><a href="#"> No Leidos</a></li>
+                                     </ul>
+                                 </div>
+                             <div class="btn-group">
+                                 <a data-original-title="Refresh" data-placement="top" data-toggle="dropdown" href="#" class="btn mini tooltips">
+                                     <i class=" fa fa-refresh"></i>
+                                 </a>
+                             </div>
+
+                             <div class="btn-group hidden-phone">
+                                 <a data-toggle="dropdown" href="#" class="btn mini blue" aria-expanded="false">
+                                     More
+                                     <i class="fa fa-angle-down "></i>
+                                 </a>
+                                 <ul class="dropdown-menu">
+                                    
+                                     <li><a href="#"><i class="fa fa-trash-o"></i> Eliminar</a></li>
+                                 </ul>
+                             </div>
+                             
+                             <ul class="unstyled inbox-pagination">
+                                 <li><span>1-50 of 234</span></li>
+                                 <li>
+                                     <a class="np-btn" href="#"><i class="fa fa-angle-left  pagination-left"></i></a>
+                                 </li>
+                                 <li>
+                                     <a class="np-btn" href="#"><i class="fa fa-angle-right pagination-right"></i></a>
+                                 </li>
+                             </ul>
+                         
+                          <table class="table table-inbox table-hover">
+                            <tbody id="myTable2">
+                              <tr class="unread">
+                                  <td class="inbox-small-cells">
+                                      <input type="checkbox" class="mail-checkbox">
+                                  </td>
+                                  <td class="view-message  dont-show">Profesor Fulanito</td>
+                                  <td class="view-message ">Hola Necesito el salon x del edificio B para bla bla</td>
+                                  <td class="view-message  text-right">9:27 AM</td>
+                              </tr>
+                             
+                              <tr class="unread">
+                                  <td class="inbox-small-cells">
+                                      <input type="checkbox" class="mail-checkbox">
+                                  </td>
+                                  <td class="view-message dont-show">Profesor Merenganito </td>
+                                  <td class="view-message">Bla Bla quiero un salon</td>
+                                  <td class="view-message text-right">March 15</td>
+                              </tr>
+                              <tr class="">
+                                  <td class="inbox-small-cells">
+                                      <input type="checkbox" class="mail-checkbox">
+                                  </td>
+                                  <td class="view-message dont-show">Profesor X</td>
+                                  <td class="view-message">Bla Bla</td>
+                                  <td class="view-message text-right">March 15</td>
+                              </tr>
+                              <tr class="">
+                                  <td class="inbox-small-cells">
+                                      <input type="checkbox" class="mail-checkbox">
+                                  </td>
+                                  <td class="view-message dont-show">Profesor Magneto</td>
+                                  <td class="view-message">Bla Bla</td>
+                                  <td class="view-message text-right">April 01</td>
+                              </tr>
+                          </tbody>
+                          </table>
+                      </div>
+                  </aside>
+              </div>
+</div>
+       <!-- Aqui termina el codigo de nosotros -->
+        
+        <div class="pure-g redes-sociales">
+            <div class="pure-u-1-2 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-4 pure-u-xl-1-4">
+                <a href="https://www.youtube.com/channel/UCk2LvggATyc4-8FmlCEEqUg?sub_confirmation=1"><img class="pure-img" src="img/Iconos/P_RedesSociales/youtube2.jpg"></a>
+            </div>
+            <div class="pure-u-1-2 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-4 pure-u-xl-1-4">
+                <a href="https://www.facebook.com/unamacatlan/"><img class="pure-img" src="img/Iconos/P_RedesSociales/facebook2.jpg"></a>
+            </div>
+            <div class="pure-u-1-2 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-4 pure-u-xl-1-4">
+                <a href="https://twitter.com/FES_ACATLAN"><img class="pure-img" src="img/Iconos/P_RedesSociales/twitter2.jpg"></a>
+            </div>
+            <div class="pure-u-1-2 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-4 pure-u-xl-1-4">
+                <a href="https://www.instagram.com/fes_acatlan/"><img class="pure-img" src="img/Iconos/P_RedesSociales/instagram2.jpg"></a>
+            </div>
+    </div>
+        
+        <div class="footer">
+        <div class="pure-g-r">
+            
+        <div class="pure-g-r">
+            <p>
+                Equipo 2. Administración de Proyectos
+            </p>
+        </div>
+    </div>
+    </div>
+    <!-- EXTERNAL JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- JQuery JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!-- Popper JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+    <!-- Slick Carousel JS -->
+    <script type="text/javascript" src="https://use.fontawesome.com/dd8e079e98.js"></script>
+    <!-- Font Awesome JS -->
+    <!-- LOCAL JS -->
+    <script type="text/javascript" src="js/awesome.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
+                var $el = $(this);
+                var $parent = $(this).offsetParent(".dropdown-menu");
+                if (!$(this).next().hasClass('show')) {
+                    $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+                }
+                var $subMenu = $(this).next(".dropdown-menu");
+                $subMenu.toggleClass('show');
+
+                $(this).parent("li").toggleClass('show');
+
+                $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+                    $('.dropdown-menu .show').removeClass("show");
+                });
+
+                if (!$parent.parent().hasClass('navbar-nav')) {
+                    $el.next().css({ "top": $el[0].offsetTop, "left": $parent.outerWidth() - 4 });
+                }
+
+                return false;
+            });
+            $('.regular').slick({
+            dots: false,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            adaptiveHeight: true,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            });
+            $(window).on('load', function() {
+                 setTimeout(function(){
+                   $('#acatlanModal').modal('show');
+               }, 0);
+            });
+        });
+    </script>
+
+    <script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#myInput2").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable2 tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+    <!-- In fly code of JS -->
+</body>
+
+</html>
